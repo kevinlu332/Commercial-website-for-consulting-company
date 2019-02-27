@@ -1,0 +1,377 @@
+body{
+	height: 100%;
+	align-self: center;
+
+}
+
+#topbar{
+	position: relative;
+	margin: 0 auto;
+	
+	width: 1140px;
+	height:100px ;
+}
+
+#menu{
+	position:absolute;
+	top: 25px;
+	left: 87px;
+}
+
+#About{
+	position:absolute;
+	top: 25px;
+	left:895px;
+	
+}
+#Projects{
+	position:absolute;
+	top: 25px;
+	left:950px;
+	
+}
+#Services{
+	position:absolute;
+	top: 25px;
+	left:1020px;
+	
+}
+
+#firstborder{
+	position: relative;
+	margin: 0 auto;
+	width: 1140px;
+	height:670px;
+}
+
+#lawyerbgimg{
+	background-image: url('http://csci571.com/hw/hw3/images/lawyer.jpg');
+	background-position: -50px center;
+	background-size: 1270px;
+	width: 1140px;
+	height: 670px;
+	
+	position: absolute;
+	top:0px;
+	
+}
+
+#lawyerbgcolor{
+	background-color:rgba(0,0,0,0.2);
+	width: 1140px;
+	height: 670px;
+	
+	position: absolute;
+	top:0px;
+	
+}
+
+#box1{
+	position: absolute;
+	top: 136px;
+	left: 67px;
+	width: 270px;
+	height: 320px;
+	background: #073B5E;
+	padding: 40px;
+}
+
+#inbox1{
+	position: absolute;
+	top: 25px;
+}
+
+#text1{
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+
+#text2{
+	font-weight: lighter;
+	color: #FFFFFF;
+	position: relative;
+	top:-20px;
+}
+
+#text3{
+	color: #FBDF00;
+	font-weight: lighter;
+	position: relative;
+	top: -30px;
+}
+
+#form{
+	position: relative;
+	top: -30px;
+
+}
+
+#email{
+	font-size:14pt;
+	height:40px;
+	width:250px;
+}
+
+#signup{
+	position: relative;
+	top: 20px;
+	background-color: #FBDF00;
+	height:40px;
+	width:150px;
+	border: none;
+
+}
+
+#threeparagraphs{
+	position: relative;
+
+	margin: 0 auto;
+	width: 1140px;
+	height: 400px;
+}
+
+.eachparagraph{
+	width: 300px;
+	margin-top: 100px;
+}
+
+#para1{
+	position: absolute;
+	left: 60px;
+}
+
+#para2{
+	position: absolute;
+	left: 430px;
+}
+
+#para3{
+	position: absolute;
+	left: 780px;
+}
+
+.paragraph{
+	opacity: 0.7;
+}
+
+#quotesection{
+	background-color: #f4f4f4;
+	height: 340px;
+	width: 1140px;
+	position: relative;
+	margin: 0 auto;
+	border: none;
+	text-align: center;
+}
+
+#thewholequote{
+	position: relative;
+	top: 120px;
+}
+
+#thequote{
+	
+}
+
+#CEO{
+	opacity: 0.7;
+}
+
+#secondborder{
+	position: relative;
+	width: 1140px;
+	height:770px;
+	margin: 0 auto;
+}
+
+#pricebgimg {
+	background-image: url(http://csci571.com/hw/hw3/images/glasses.png);
+	filter:grayscale(1);
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 1800px;
+	position: relative;
+	margin: 0 auto;
+	width: 1140px;
+	height: 770px; 
+}
+
+#pricebgcolor{
+	background-color:rgba(221,221,221,0.6);
+	position: relative;
+	margin: 0 auto;
+	top: -770px;
+	width: 1140px;
+	height: 770px;
+}
+
+#text4{
+	text-align: center;
+	filter:none;
+	color: rgba(0,0,0);
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+	top: -1530px;
+
+}
+
+#AFFORDABLE {
+	opacity: 0.5;
+}
+
+
+
+#threeplans{
+	width: 1140px;
+	height: 500px;
+	position: relative;
+	margin: 0 auto;
+	top: -1470px;
+	padding: 0 50px;
+	padding-bottom: 0;
+}
+
+.eachplan{
+	width: 300px;
+	height: 500px;
+	background:linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(http://csci571.com/hw/hw3/images/grid.png);
+	background-repeat: repeat;
+	background-size: 470px;
+	background-color: white;
+	float: left;
+	margin: auto 30px;
+}
+
+.plancontent{
+	margin: 60px 60px;
+
+}
+
+.eachplan h4{
+	text-align: center; 
+}
+
+.eachplan h5{
+	text-align: center; 
+}
+
+.eachplan h2{
+	text-align: center; 
+}
+
+.plan{
+	line-height: 40px;
+}
+
+.price{
+	position: relative;
+	top: -30px;
+}
+
+.buynow{
+	margin-left: 85px;
+	background-color: #073B5E;
+	color: white;
+	height:40px;
+	width:130px;
+	border: none;
+}
+
+# thirdborder{
+	position: relative;
+	margin: 0 auto;
+	width: 1140px;
+	height: 450px;
+	top: -1500px;
+}
+
+#tryitbgimg{
+	background-image: url('http://csci571.com/hw/hw3/images/notebook.jpg');
+	background-position: center center;
+	background-size: 1140px 770px;
+	
+	position: relative;
+	margin: 0 auto;
+	width: 1140px;
+	height: 450px;
+	top: -1380px;
+}
+
+#tryitbgcolor{
+	background-color:rgba(7,39,64,0.82);
+	position: relative;
+	margin: 0 auto;
+	top: -450px;
+	width: 1140px;
+	height: 450px;
+	top: -1830px;
+}
+
+#trythebest{
+	position: relative;
+	margin-left: 380px;
+	top: -2150px;
+	color: white;
+}
+
+#p1{
+	font-size: 26px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#p2{
+	font-size: 15px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+#tryitforfree{
+	position: relative;
+	top: -2130px;
+	margin-left: 520px;
+	background-color: #FBDF00;
+	height:40px;
+	width:170px;
+	border: none;
+}
+
+#footerpart{
+	background-color: #1D2530;
+	height: 280px;
+	width: 1140px;
+	position: relative;
+	margin: 0 auto;
+	top: -2001px;
+	border: none;
+	text-align: center;
+}
+
+#thewholequote{
+	position: relative;
+	top: 80px;
+}
+
+#ff1{
+	color: white;
+}
+
+#ff2{
+	color: #B1B1B1;
+	font-size: 12px;
+}
+
+.fb{
+	position: relative;
+	top: 88px;
+	height: 35px;
+	margin: 10px;
+}
+
+
+
